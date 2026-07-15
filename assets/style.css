@@ -3,6 +3,7 @@
   --pdf: #0d9488; --pdf-strong: #0f766e;
   --pic: #6366f1; --pic-strong: #4f46e5;
   --aivis: #d97706; --aivis-strong: #b45309;
+  --doc: #2563eb; --doc-strong: #1d4ed8;
   --bg: #f5f7f8; --panel: #ffffff; --ink: #1b2427; --muted: #5f707a; --line: #dde4e7;
   --shadow: 0 1px 3px rgba(16, 42, 46, .07), 0 6px 20px rgba(16, 42, 46, .06);
   --radius: 14px;
@@ -12,6 +13,7 @@
     --pdf: #2dd4bf; --pdf-strong: #14b8a6;
     --pic: #818cf8; --pic-strong: #6366f1;
     --aivis: #f59e0b; --aivis-strong: #d97706;
+    --doc: #60a5fa; --doc-strong: #3b82f6;
     --bg: #0f1516; --panel: #1a2123; --ink: #e7ecee; --muted: #93a4ac; --line: #2a3538;
     --shadow: 0 1px 3px rgba(0,0,0,.45);
   }
@@ -65,6 +67,7 @@ nav.top-nav a:hover { color: var(--ink); }
 .product-card.pdf .cta { color: var(--pdf-strong); }
 .product-card.pic .cta { color: var(--pic-strong); }
 .product-card.aivis .cta { color: var(--aivis-strong); }
+.product-card.doc .cta { color: var(--doc-strong); }
 
 /* 承诺条 */
 .promise {
@@ -80,6 +83,7 @@ nav.top-nav a:hover { color: var(--ink); }
 .prod-hero img { width: 76px; height: 76px; border-radius: 18px; box-shadow: var(--shadow); }
 .prod-hero .tag { font-size: 13px; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; }
 .page-pdf .tag { color: var(--pdf-strong); } .page-pic .tag { color: var(--pic-strong); } .page-aivis .tag { color: var(--aivis-strong); }
+.page-doc .tag { color: var(--doc-strong); }
 
 .store-row { display: flex; flex-wrap: wrap; gap: 12px; margin: 22px 0 8px; }
 .btn {
@@ -89,6 +93,7 @@ nav.top-nav a:hover { color: var(--ink); }
 .page-pdf .btn.primary { background: var(--pdf); border-color: var(--pdf); color: #fff; }
 .page-pic .btn.primary { background: var(--pic); border-color: var(--pic); color: #fff; }
 .page-aivis .btn.primary { background: var(--aivis); border-color: var(--aivis); color: #fff; }
+.page-doc .btn.primary { background: var(--doc); border-color: var(--doc); color: #fff; }
 .btn.disabled { opacity: .55; pointer-events: none; }
 
 .shot { margin: 34px 0; }
